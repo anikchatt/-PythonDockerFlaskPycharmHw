@@ -6,5 +6,5 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 # SQL Database 
 ![SQL DB](/screenshots/sqldb.PNG) 
 
-#Postman 
+# Postman 
 ![Postman](/screenshots/postman.PNG)
