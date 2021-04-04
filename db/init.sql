@@ -1,3 +1,4 @@
+
 CREATE DATABASE citiesData;
 use citiesData;
 
@@ -6,7 +7,7 @@ CREATE TABLE IF NOT EXISTS tblCitiesImport (
     `fldLat` NUMERIC(6, 4),
     `fldLong` NUMERIC(7, 4),
     `fldCountry` VARCHAR(19) CHARACTER SET utf8,
-    `fldAbreviation` VARCHAR(3) CHARACTER SET utf8,
+    `fldAbbreviation` VARCHAR(3) CHARACTER SET utf8,
     `fldCapitalStatus` VARCHAR(7) CHARACTER SET utf8,
     `fldPopulation` INT
 );
@@ -24,18 +25,7 @@ INSERT INTO tblCitiesImport VALUES
     ('Paris',48.8667,2.3333,'France','FRA','primary',9904000),
     ('Seoul',37.5663,126.9997,'Korea, South','KOR','primary',9796000),
     ('Jakarta',-6.1744,106.8294,'Indonesia','IDN','primary',9125000),
-    ('Chicago',41.837select
-    t.`fldAbreviation`,
-    t.`fldCapitalStatus`,
-    t.`fldCountry`,
-    t.`fldLat`,
-    t.`fldLong`,
-    t.`fldName`,
-    t.`fldPopulation`
-from
-    `tblCitiesImport` t;
-
-3,-87.6862,'United States','USA','NA',8675982),
+    ('Chicago',41.8373,-87.6862,'United States','USA','NA',8675982),
     ('London',51.5,-0.1167,'United Kingdom','GBR','primary',8567000),
     ('Lima',-12.048,-77.0501,'Peru','PER','primary',8012000),
     ('Tehran',35.6719,51.4243,'Iran','IRN','primary',7873000),
